@@ -4,47 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
+
     <title>Tela de login</title>
+
+    <link rel="stylesheet" href="/public/css/img.css">
+    <link rel="stylesheet" href="/public/css/resset.css">
+    <link rel="stylesheet" href="/public/css/login.css">
+    <link rel="stylesheet" href="/public/css/size.css">
+    <link rel="stylesheet" href="/public/css/position.css">
+
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;900&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <h1 class="Logo"> ESPORT CENTER</h1>
-    <form> 
-        <h2 class="cliente">já sou cliente</h2>
-        <dif class="box-user">
-            <input type="text" name="" required>
-            <label>login</label>
-            <br>
-            <br>
-        </div>
-        <dif class="box-senha">
-            <input type="password" name="" required>
-            <label>Senha</label>
-            <div class="relembre">
-                <span><input type="checkbox">relembre-me</span>
-            </div>
-            
-        </div>
-    
-        <div class="Botao-Acesso">
-            <button>Acesar conta</button>
-        </div>
+    <div class="logo width-full center flex">
+        <h1> ESPORT CENTER</h1>
     </div>
-    <div class="Suport">
-        <a href="#" class="forget"> Esqueceu a Senha?</a>
-    </div>
-    <div class="LoginGmail">
-<span><img class="google-img" src="img/Google.png" alt="Google"></span>
-<span>,<a href="#">conectar pelo g-mail</a></span>
-    </div>
-    <h2 class="Criar-conta">Criar conta</h2>
-    <dif class="box-Email">
-        <input type="email" placeholder="informe seu E-mail">
-        <div class="Botao-Acesso">
-            <button>Prosseguir</button>
-        </div>
-
+    <div class="login colum center">
+        <legend> <h3>Já sou cliente: </h3> </legend>
+        <fieldset class="flex">
+            <label for="nome"> Login: </label>
+            <input id="nome" type="text">
+        </fieldset>
+        <fieldset>
+            <label for="telefone"> Senha: </label>
+            <input id="telefone" type="password">
+        </fieldset>
         
-    </form>
+        <div class="flex">
+            <input type="checkbox" class="flex"id="remember">
+            <label for="scales">Relembre-me </label>
+        </div>
+        
+        <button class="button_login">Acesar conta</button>
+        <a href="#" class="forget"> Esqueceu a Senha?</a>
+
+        <div class="login_gmail colum center ">
+        <img class="google-img" src="/public/img/Google.png" alt="Google">
+        <a href="#">Conectar pelo g-mail</a>
+        </div>
+    </div>
+
+    <div class="singup colum center">
+        <legend> <h3>Criar conta: </h3> </legend>
+        <fieldset class="flex">
+            <label for="nome"> Nome: </label>
+            <input id="nome" type="text">
+        </fieldset>
+        <fieldset>
+            <label for="telefone"> Telefone: </label>
+            <input id="telefone" type="text">
+        </fieldset>
+        <fieldset>
+            <label for="email"> E-mail: </label>
+            <input id="email" type="text">
+        </fieldset>
+        <fieldset>    
+            <label for="mensagem"> Senha: </label>
+            <input id="mensagem" type="password">
+        </fieldset>
+
+        <button class="button_login">Criar conta</button>            
+    
+    </div>
 </body>
 </html>

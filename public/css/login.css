@@ -1,0 +1,45 @@
+body {
+    background-image: url("/public/img/bg-login.png");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 100vw;
+}
+
+.logo {
+    background-color: var(--purple);
+}
+
+.logo h1{
+    color: white
+}
+
+.login{
+    height: 100vw;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: var(--purple);
+    width: 100px;
+    height: 30px;
+    color: white ;
+    border-radius: var(--border-radius15);
+    margin: 10px;
+    border:none
+
+}
+
+input {
+    border-radius: var(--border-radius8);
+    border: none;
+    width: 205px;
+    height: 23px;
+    
+}
+

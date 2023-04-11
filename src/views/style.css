@@ -30,9 +30,6 @@
 
 .google-img{
     height: 40px;
-<<<<<<< HEAD:public/css/img.css
-    width: 40px
-=======
 }
 
 .certo{
@@ -73,6 +70,7 @@ body {
     background: rebeccapurple;
     color: white;
  }
+ 
  h1{
     text-align: center;
     margin-top: 100px;
@@ -80,22 +78,22 @@ body {
  img{
     max-width: 100%;
     display: block;
+   
  }
  .header {
     background-color: rebeccapurple;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: : center;
-    padding: 20px;
-    
- }
+    align-items: center;
+    padding: 20px; }  
  .flex {
    display: flex;
    align-items: center;
  }
  .flex img {
    border-radius: 6px;
+  
  }
  .flex .info {
    margin-left: 10px;
@@ -297,5 +295,4 @@ aside > button:hover {
 }
 .but .frete {
   height: 10px;
->>>>>>> 18a1ae45e110a74f7c30c744beb51c5a03870f0e:public/css/style.css
 }

@@ -70,6 +70,7 @@ body {
     background: rebeccapurple;
     color: white;
  }
+ 
  h1{
     text-align: center;
     margin-top: 100px;
@@ -77,6 +78,7 @@ body {
  img{
     max-width: 100%;
     display: block;
+   
  }
  .header {
     background-color: rebeccapurple;
@@ -93,6 +95,7 @@ body {
  }
  .flex img {
    border-radius: 6px;
+  
  }
  .flex .info {
    margin-left: 10px;

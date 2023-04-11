@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="/public/css/login.css">
     <link rel="stylesheet" href="/public/css/size.css">
     <link rel="stylesheet" href="/public/css/position.css">
+    <link rel="stylesheet" href="/public/css/spaces.css">
+    <link rel="stylesheet" href="/public/css/magin.css">
 
     
 
@@ -23,52 +25,54 @@
     <div class="logo width-full center flex">
         <h1> ESPORT CENTER</h1>
     </div>
-    <div class="login colum center">
-        <legend> <h3>Já sou cliente: </h3> </legend>
-        <fieldset class="flex">
-            <label for="nome"> Login: </label>
-            <input id="nome" type="text">
-        </fieldset>
-        <fieldset>
-            <label for="telefone"> Senha: </label>
-            <input id="telefone" type="password">
-        </fieldset>
-        
-        <div class="flex">
-            <input type="checkbox" class="flex"id="remember">
-            <label for="scales">Relembre-me </label>
+    <div class="container-menu flex width-100 margin-top-1">
+        <div class="login colum padding ">
+            <legend> <h3>Já sou cliente: </h3> </legend>
+            <fieldset class="flex">
+                <label for="nome"> Login: </label>
+                <input id="nome" type="text">
+            </fieldset>
+            <fieldset>
+                <label for="telefone"> Senha: </label>
+                <input id="telefone" type="password">
+            </fieldset>
+            
+            <div class="flex">
+                <input type="checkbox" class="flex"id="remember">
+                <label for="scales">Relembre-me </label>
+            </div>
+            
+            <button class="button_login">Acesar conta</button>
+            <a href="#" class="forget"> Esqueceu a Senha?</a>
+
+            <div class="login_gmail colum center ">
+            <img class="google-img" src="/public/img/Google.png" alt="Google">
+            <a href="#">Conectar pelo g-mail</a>
+            </div>
         </div>
+
+        <div class="singup colum">
+            <legend> <h3>Criar conta: </h3> </legend>
+            <fieldset class="flex">
+                <label for="nome"> Nome: </label>
+                <input id="nome" type="text">
+            </fieldset>     
+            <fieldset>
+                <label for="telefone"> Telefone: </label>
+                <input id="telefone" type="text">
+            </fieldset>
+            <fieldset>
+                <label for="email"> E-mail: </label>
+                <input id="email" type="text">
+            </fieldset>
+            <fieldset>    
+                <label for="mensagem"> Senha: </label>
+                <input id="mensagem" type="password">
+            </fieldset>
+
+            <button class="button_login">Criar conta</button>            
         
-        <button class="button_login">Acesar conta</button>
-        <a href="#" class="forget"> Esqueceu a Senha?</a>
-
-        <div class="login_gmail colum center ">
-        <img class="google-img" src="/public/img/Google.png" alt="Google">
-        <a href="#">Conectar pelo g-mail</a>
         </div>
-    </div>
-
-    <div class="singup colum center">
-        <legend> <h3>Criar conta: </h3> </legend>
-        <fieldset class="flex">
-            <label for="nome"> Nome: </label>
-            <input id="nome" type="text">
-        </fieldset>
-        <fieldset>
-            <label for="telefone"> Telefone: </label>
-            <input id="telefone" type="text">
-        </fieldset>
-        <fieldset>
-            <label for="email"> E-mail: </label>
-            <input id="email" type="text">
-        </fieldset>
-        <fieldset>    
-            <label for="mensagem"> Senha: </label>
-            <input id="mensagem" type="password">
-        </fieldset>
-
-        <button class="button_login">Criar conta</button>            
-    
     </div>
 </body>
 </html>

@@ -2,7 +2,18 @@ const express = require('express');
 
 const app = express();
 
-//view engine config
+//Import routes
+
+const indexRouter = require('./routes/indexRouter');
+const loginRouter = require('./routes/loginRouter');
+const loginRouter = require('./routes/loginRouter');
+
+// Config forms
+
+app.use(express.urlencoded({extended : true}));
+app.use(express.json());
+
+//View engine config
 
 app.set('view engine', 'ejs');
 app.set('views','./views') 
